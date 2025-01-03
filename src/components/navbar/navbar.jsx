@@ -8,10 +8,10 @@ const NavBar = () => {
       {
           <nav className="navbar">
             <div className="navbar-links">
-              <div className='navbar-item'><Link to="/interference">Interference</Link></div>
-              <div className='navbar-item'><Link to="/backoff">Back-Off</Link></div>
-              <div className='navbar-item'><Link to="/minimumsize">Minimum Size</Link></div>
-              <div className='navbar-item'><Link to="/findit">Find it</Link></div>
+              <div className='navbaritem'><Link to="/interference">Interference</Link></div>
+              <div className='navbaritem'><Link to="/backoff">Back-Off</Link></div>
+              <div className='navbaritem'><Link to="/minimumsize">Minimum Size</Link></div>
+              <div className='navbaritem'><Link to="/findit">Find it</Link></div>
             </div>
           </nav>
       

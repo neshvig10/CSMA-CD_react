@@ -1,10 +1,15 @@
 .navbar-links{
     display: flex;
     flex-direction: row;
-    background-color: yellow;
+    background-color: rgb(152, 203, 59);
 }
 
-.navbar-item{
+.navbaritem{
     margin: 5px;
     padding: 5px;
+    background-color:rgb(152, 203, 59);
+    text-decoration:none;
+    color: blue;
+    font-size: larger;
 }
+

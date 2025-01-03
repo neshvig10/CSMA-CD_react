@@ -1,11 +1,18 @@
 import React from 'react';
-import './message.css';
+import { Link } from 'react-router-dom';
+import './message.css'
 
 const Message = (props) => {
-  const messageLines = props.message.split('\n').map((line, index) => <div key={index}>{line}</div>);
-  console.log(messageLines);
-  
-  return <div className='message'>{messageLines}</div>;
+  return (
+    <div>
+      {
+        <div className='message'>
+            {props.message}
+        </div>
+      
+      }
+    </div>
+  );
 };
 
 export default Message;

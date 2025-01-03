@@ -5,9 +5,19 @@
     margin-left: 100px;
 }
 
+.navlink{
+    /* border-radius: 10px; */
+    background-color: rgb(152, 203, 59);
+    margin: 10px;
+    padding: 5px;
+    text-decoration: none;
+    color: blue;
+    font-size: larger;
+}
+
 .status{
     padding: 10px;
-    background-color: yellow;
+    background-color: rgb(152, 203, 59);
     height: 200px;
     margin-left: 200px;
     width: 200px;
@@ -24,7 +34,7 @@
 
 
 .node{
-    background-color: yellow;
+    background-color: rgb(152, 203, 59);
     height: 200px;
     width: 200px;
     border-radius: 100px;
@@ -72,7 +82,7 @@
 
 .status{
     padding: 10px;
-    background-color: yellow;
+    background-color: rgb(152, 203, 59);
     height: 200px;
     width: 200px;
     border-radius: 5px;
@@ -96,7 +106,7 @@
 
 
 .node{
-    background-color: yellow;
+    background-color: rgb(152, 203, 59);
     height: 100px;
     width: 100px;
     border-radius: 100px;

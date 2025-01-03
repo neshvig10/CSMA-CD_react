@@ -3,7 +3,7 @@
     margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
-    background-color: yellow;
+    background-color: rgb(152, 203, 59);
 }
 
 @media (max-width: 480px) {
