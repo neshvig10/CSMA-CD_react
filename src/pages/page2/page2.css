@@ -141,19 +141,32 @@ button.enterpacketsize{
     margin-left: 70px;
 }
 
+
 button.enterpacketsize{
     width: 130px;
     background-color: rgb(255, 80, 80);
-    margin-left: 15px;
+    margin-left: 5px;
     margin-right: 10px;
     border-radius: 5px;
     border-color: red;
 }
 
 .inputn{
-    margin-left: 75px;
+    margin-left: 85px;
 }
 
+.botnode{
+    margin-left: 65px;
+}
+
+.inputk{
+    margin-left: 120px;
+}
+    
+.checkk{
+
+    margin-left : 220px;
+}
 
     
 }
