@@ -474,7 +474,7 @@ const PageZero = () => {
 
     function sendNode(){
         messageAfterReach.current = ("Message Sent by user Recieved Succesfully")
-        if (uncounter > 0){
+        if (uncounter.current > 0){
             alert("Already sending a message")
         }else{
             uncounter.current = (0);

@@ -1117,7 +1117,7 @@ function un16() {
   
 
   function sendNode() {
-    if (uncounter > 0) {
+    if (uncounter.current > 0) {
       alert("Already Sending one message !");
     } else {
       messageAfterReach.current = "Node Sent by user Recieved Succesfully";
